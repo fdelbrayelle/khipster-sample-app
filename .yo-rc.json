@@ -1,0 +1,56 @@
+{
+  "generator-jhipster": {
+    "blueprints": [
+      {
+        "name": "generator-jhipster-kotlin",
+        "version": "1.12.1"
+      }
+    ],
+    "otherModules": [
+      {
+        "name": "generator-jhipster-kotlin",
+        "version": "1.12.1"
+      }
+    ],
+    "applicationType": "monolith",
+    "baseName": "khipster_sample_app",
+    "jhipsterVersion": "7.0.1",
+    "skipClient": false,
+    "skipServer": false,
+    "skipUserManagement": false,
+    "skipCheckLengthOfIdentifier": false,
+    "skipFakeData": false,
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "testFrameworks": ["cypress"],
+    "pages": [],
+    "creationTimestamp": 1634392168401,
+    "serviceDiscoveryType": false,
+    "reactive": false,
+    "authenticationType": "jwt",
+    "packageName": "com.mycompany.myapp",
+    "serverPort": "8080",
+    "cacheProvider": "redis",
+    "enableHibernateCache": true,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "postgresql",
+    "buildTool": "maven",
+    "serverSideOptions": [],
+    "websocket": false,
+    "searchEngine": false,
+    "messageBroker": false,
+    "enableSwaggerCodegen": false,
+    "clientFramework": "react",
+    "withAdminUi": true,
+    "clientTheme": "none",
+    "enableTranslation": false,
+    "nativeLanguage": "fr",
+    "packageFolder": "com/mycompany/myapp",
+    "jwtSecretKey": "NjM4NmRhYzg3ZmZjNmFmYjE3ZDVlNmU0MjRjMDUxODk5MDg1YzZmNDI0ODM4M2NlNjY0N2RhNTk4NDMxMjZmY2UwMWU2NDgyMWMyODcyMmJjNDU0ZjcyZWE4MzJjMTQ0OTFmOWEwY2Y1ZTA5MzgyZDdhNDNjY2M5NjEwNDdkNmM=",
+    "clientPackageManager": "npm",
+    "clientThemeVariant": "",
+    "languages": ["en", "fr"]
+  }
+}
